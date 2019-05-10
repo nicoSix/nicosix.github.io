@@ -15,7 +15,11 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-weight: 800;
+}
+
+.masthead-subheading {
+  font-weight: 300 !important;
 }
 
 .btn-xl {
@@ -59,8 +63,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#111E6C), to(#0E4D92));
+  background: linear-gradient(0deg, #111E6C 0%, #0E4D92 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -77,15 +81,15 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#111E6C), to(#0E4D92));
+  background: linear-gradient(0deg, #111E6C 0%, #0E4D92 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -125,7 +129,7 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -134,13 +138,13 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #0080FF;
+  border-color: #0080FF;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: rgb(1, 115, 230) !important;
+  border-color: rgb(1, 115, 230) !important;
 }
 
 .btn-primary:focus {
@@ -149,16 +153,29 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color: #0080FF;
+  border-color: #0080FF;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
+  background-color: rgb(1, 115, 230) !important;
+  border-color: rgb(1, 115, 230) !important;
 }
 
 .btn-secondary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.skills-section {
+  background-image: url("../img/skills-bg.png");
+}
+
+.skills-col {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.white-font {
+  color: white;
 }
