@@ -227,14 +227,24 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50
   margin: 5px;
 }
 
-.col-lg-4, .col-lg-3 {
+.col-lg-4, .col-lg-2 {
   margin-top: 25px;
 }
 
 .inner-margin {
   margin: 5px;
+  display: flex;
 }
 
 .card-img-top {
-  height: 150px;
+  height: 200px;
+}
+
+.portfolio-row > div[class*='col-'] {
+  display: flex;
+}
+
+.social-icon {
+  width: 100px;
+  height: 100px;
 }
