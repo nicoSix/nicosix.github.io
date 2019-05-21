@@ -15,6 +15,9 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
+}
+
+h1 {
   font-weight: 800;
 }
 
@@ -168,14 +171,70 @@ header.masthead .bg-circle-4 {
 }
 
 .skills-section {
-  background-image: url("../img/skills-bg.png");
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
 }
 
-.skills-col {
-  margin-top: 20px;
-  text-align: center;
+.about-section {
+  background-image:url('../img/about-bg.jpg');
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-section {
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.portfolio-section {
+  background-image:url('../img/portfolio-bg.jpg');
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  padding-top: 30px;
+}
+
+.skills-little-col {
+  margin-bottom: 20px;
 }
 
 .white-font {
   color: white;
+}
+
+.text-shadow {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.light-text-shadow {
+  text-shadow: black 0.05em 0.05em 0.1em;
+}
+
+.badge {
+  font-size: 100%;
+  margin: 5px;
+}
+
+.col-lg-4, .col-lg-3 {
+  margin-top: 25px;
+}
+
+.inner-margin {
+  margin: 5px;
+}
+
+.card-img-top {
+  height: 150px;
 }

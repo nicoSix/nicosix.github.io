@@ -10,6 +10,8 @@
 
   <title>Nicolas Six</title>
 
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -64,7 +66,7 @@
     <div class="bg-circle-4 bg-circle"></div>
   </header>
 
-  <section id="about">
+  <section id="about" class="about-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
@@ -74,9 +76,9 @@
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h2 class="display-4">Who am I ?</h2>
-            <p>Nearly graduated from Centrale Lille - IG2I as a Software Engineer, I'm eager to create new projects and learn new things !</p>
-            <p>I'm fascinated about the potential of blockchain technology, IoT and in general, by innovation and new technologies !</p>
+            <h2 class="display-4 white-font text-shadow">Who am I ?</h2>
+            <p class="white-font text-shadow">Nearly graduated from Centrale Lille - IG2I as a Software Engineer, I'm eager to create new projects and learn new things !</p>
+            <p class="white-font text-shadow">I'm fascinated about the potential of blockchain technology, IoT and in general, by innovation and new technologies !</p>
           </div>
         </div>
       </div>
@@ -84,19 +86,155 @@
   </section>
 
   <section id="skills" class="skills-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-12 skills-col">
-          <h2 class="display-4 white-font">Skills</h2>
+    <div class="container" align="center">
+      <h2 class="display-4 section-title">Skills</h2>
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-4 skills-little-col">
+          <h3>Languages</h3>
+          <span class="badge badge-info">Javascript</span>
+          <span class="badge badge-info">Python</span>
+          <span class="badge badge-info">C/C++</span>
+          <span class="badge badge-info">Java</span>
+          <span class="badge badge-info">PHP</span>
+          <span class="badge badge-info">Windev</span>
+          <span class="badge badge-info">Solidity</span>
+          <span class="badge badge-info">HTML/CSS</span>
+        </div>
+        <div class="col-lg-4 skills-little-col">
+          <h3>Frameworks and technologies</h3>
+          <span class="badge badge-info">React.js</span>
+          <span class="badge badge-info">Node.js</span>
+          <span class="badge badge-info">Express</span>
+          <span class="badge badge-info">JQuery</span>
+          <span class="badge badge-info">Web Scraping</span>
+          <span class="badge badge-info">REST APIs</span>
+          <span class="badge badge-info">Bootstrap</span>
+        </div>
+        <div class="col-lg-4 skills-little-col">
+          <h3>Databases</h3>
+          <span class="badge badge-info">SQL (MySQL, PostgreSQL)</span>
+          <span class="badge badge-info">NoSQL (MongoDB)</span>
+        </div>
+        <div class="col-lg-4 skills-little-col">
+          <h3>Blockchain</h3>
+          <span class="badge badge-info">Theory</span>
+          <span class="badge badge-info">Quorum</span>
+          <span class="badge badge-info">Ethereum Parity</span>
+          <span class="badge badge-info">Hyperledger Fabric</span>
+          <span class="badge badge-info">Hyperledger Composer</span>
+          <span class="badge badge-info">Corda</span>
+        </div>
+        <div class="col-lg-4 skills-little-col">
+          <h3>Project Management</h3>
+          <span class="badge badge-info">Waterfall</span>
+          <span class="badge badge-info">Agile (Scrum method)</span>
+          <span class="badge badge-info">Management</span>
+        </div>
+        <div class="col-lg-4 skills-little-col">
+          <h3>Cloud</h3>
+          <span class="badge badge-info">Microsoft Azure</span>
         </div>
       </div>
-    </div>
+    </div><br/>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+      <div class="container" align="center">
+          <h2 class="display-4 white-font text-shadow section-title">Portfolio</h2>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="inner-margin">
+                <div class="card">
+                  <img class="card-img-top" src="./img/sw-pic.jpg" alt="SW Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Startup Weekend Lens Maker</h5>
+                    <p class="card-text">
+                      This event allowed 25 attendees to build their startup in 54h ! As the Lead Organizer, 
+                      I had to supervize Logistics, Budget, Sponsoring and Communication.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner-margin">
+                <div class="card">
+                  <img class="card-img-top" src="./img/cofidis-pic.png" alt="Cofidis Image">
+                  <div class="card-body">
+                    <h5 class="card-title">End-of-Studies Project for Cofidis</h5>
+                    <p class="card-text">
+                      As the Technical Lead in a team of 5, our objective was to build a tool which can evaluate 
+                      e-reputation of Cofidis partners, using Machine Learning, Python, Webscraping and React.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner-margin">
+                <div class="card">
+                  <img class="card-img-top" src="./img/enedis-pic.png" alt="Enedis Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Site cartography tool for Enedis</h5>
+                    <p class="card-text">
+                      Working for the Junior Enterprice of the school as a developper, I realized a web application 
+                      which displays Enedis industrial sites with indications (danger zones, interesting points ...).
+                      Used when a collaborator joins the company, as a learning tool.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner-margin">
+                <div class="card">
+                  <img class="card-img-top" src="./img/mirror-pic.jpg" alt="Mirror Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Connected mirror</h5>
+                    <p class="card-text">
+                      With Mecatronix, a school association, I realized with other members a connected mirror.
+                      Using a glass pane turned into a one-way mirror, we were able to display information on it and so, 
+                      create a smart connected mirror. Used a Raspberry Pi, Javascript and a CAO software for the frame (Autodesk).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/><br/>
+      </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+      <div class="container" align="center">
+          <h2 class="display-4 section-title">Contact me !</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="mailto:nicolas.six.fr@gmail.com">
+                <img class="rounded mx-auto d-block" src="./img/gmail-icon.png" alt="Mail"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="https://www.linkedin.com/in/nicolas-six/">
+                <img class="rounded mx-auto d-block" src="./img/linkedin-icon.png" alt="Linkedin"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="https://github.com/nicoSix">
+                <img class="rounded mx-auto d-block" src="./img/github-icon.png" alt="Github"/>
+              </a>
+            </div>
+          </div>
+          <br/>
+      </div>
+  </section>
+
   </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white small">Nicolas Six, 2019. Contact : <a href="mailto:nicolas.six.fr@gmail.com">nicolas.six.fr@gmail.com</a></p>
     </div>
     <!-- /.container -->
   </footer>
