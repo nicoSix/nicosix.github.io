@@ -7,7 +7,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.badge-blue {
   font-family: 'Catamaran';
 }
 
@@ -165,12 +166,12 @@ header.masthead .bg-circle-4 {
 }
 
 .skills-section {
-  background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
+  background: #111E6C;
+  background: linear-gradient(0deg, #111E6C 0%, #0E4D92 100%);
 }
 
 .about-section {
-  background-image:url('../img/about-bg.jpg');
+  background-image:url('../img/font-bg.jpg');
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -180,12 +181,12 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50
 }
 
 .contact-section {
-  background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
+  background: #111E6C;
+  background: linear-gradient(0deg, #111E6C 0%, #0E4D92 100%);
 }
 
 .portfolio-section {
-  background-image:url('../img/portfolio-bg.jpg');
+  background-image:url('../img/font-bg.jpg');
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -211,12 +212,16 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50
 }
 
 .light-text-shadow {
-  text-shadow: black 0.05em 0.05em 0.1em;
+  text-shadow: black 0.02em 0.02em 0.05em;
 }
 
 .badge {
   font-size: 100%;
   margin: 5px;
+}
+
+.badge-blue {
+  background-color: #0080FF;
 }
 
 .col-lg-4, .col-lg-2 {
