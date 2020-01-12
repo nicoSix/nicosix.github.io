@@ -263,3 +263,16 @@ header.masthead .bg-circle-4 {
   border: 1px solid #4BB9C2;
   color: white;
 }
+
+.thesis-footer {
+  background-color: #761E9B;
+  border: 1px solid #761E9B;
+  color: white;
+}
+
+.work-footer {
+  background-color: #1E5B9B;
+  border: 1px solid #1E5B9B;
+  color: white;
+}
+
