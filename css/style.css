@@ -270,6 +270,11 @@ header.masthead .bg-circle-4 {
   color: white;
 }
 
+.publication-footer {
+  background-color: rgb(70, 7, 97);
+  border: 1px solid rgb(70, 7, 97);
+  color: white;
+}
 .work-footer {
   background-color: #1E5B9B;
   border: 1px solid #1E5B9B;
